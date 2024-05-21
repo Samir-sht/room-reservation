@@ -1,7 +1,7 @@
-<header class="container-fluid">
-    <nav class="navbar navbar-expand-lg w-100  py-4">
-        <div class="container">
-            <a class="navbar-brand mx-0" href="#">RoomFinders</a>
+<header>
+    <nav class="navbar navbar-expand-lg w-100 navbar-light py-3 py-md-4">
+        <div class="container px-0 px-md-auto">
+            <a class="navbar-brand " href="#">RoomFinders</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -22,18 +22,22 @@
 
 
                 </ul>
-                <button class="btn btn-blue login dropdown  position-relative">
-                    <a class="dropdown-toggle text-white " data-bs-toggle="dropdown" href="#" role="button">login
+                <div class="navbar-nav login rounded">
+                    <li class="nav-item dropdown">
+                        <a class="d-block text-center text-white nav-link text-capitalize dropdown-toggle" href="#"
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            login
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item "><a href="./includes/userlogin.php" target="_blank">Login as a
+                                    user</a></li>
+                            <li class="dropdown-item"><a href="./includes/tenantlogin.php" target="_blank">login as a
+                                    tenant</a></li>
+                        </ul>
+                    </li>
+                </div>
 
-                    </a>
 
-                    <ul class="dropdown-menu position-absolute overflow-hidden">
-                        <li class="dropdown-item "><a href="./includes/userlogin.php" target="_blank">Login as a
-                                user</a></li>
-                        <li class="dropdown-item"><a href="./includes/tenantlogin.php" target="_blank">login as a
-                                tenant</a></li>
-                    </ul>
-                </button>
 
 
 

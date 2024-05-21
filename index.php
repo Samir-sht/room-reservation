@@ -3,7 +3,7 @@
 
 <section class="banner d-flex align-items-center min-h-100 gap-2">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row gy-3 align-items-center">
             <div class="col-lg-6 col-md-12 d-flex flex-column gap-0">
                 <h1 class="mb-2">Find Your Perfect Room with Ease</h1>
                 <p class="text-justify mb-3">Explore a diverse selection of rooms and book your ideal stay effortlessly.
@@ -13,9 +13,9 @@
                 <a href="#room" class=" text-white ">Book Your room today</a>
             </div>
 
-            <div class="col-lg-6">
-                <figure class="d-none d-lg-block">
-                    <img src="./assets/images/banner-img.webp" class="img-fluid" alt="Room Image">
+            <div class="col-lg-6 pe-md-0">
+                <figure class="d-block d-lg-block">
+                    <img src="./assets/images/banner-img.webp" class="img-fluid rounded" alt="Room Image">
                 </figure>
             </div>
         </div>
@@ -24,7 +24,7 @@
 
 <section class="room" id="room">
     <div class="container">
-        <h2 class="text-capitalize mb-4">Our Rooms</h2>
+        <h2 class="text-capitalize mb-3 mb-md-4">Our Rooms</h2>
         <div class="row gy-3 gx-3 ">
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <?php 

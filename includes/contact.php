@@ -1,5 +1,5 @@
 <div class="container">
-    <h2 class="text-capitalize mb-4">Contact Us</h2>
+    <h2 class="text-capitalize mb-3 mb-md-4">Contact Us</h2>
     <form action="#">
         <div class="mb-3">
             <label for="fullname" class="form-label">Full Name</label>
